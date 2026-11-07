@@ -11,12 +11,12 @@ answer from that result.
 ## Install
 
 ```
-bun install -g github:<user>/seek-search                       # puts `seek` on your PATH
+bun install -g github:MaximilianHeidenreich/seek-search                       # puts `seek` on your PATH
 echo 'export SEEK_SEARCH_GATEWAY_KEY=...' >> ~/.zshrc          # gateway key; never commit it
 seek install                                             # symlinks skill/ to ~/.claude/skills/seek-search
 ```
 
-- Update: run the same `bun install -g github:<user>/seek-search` again. The skill symlink points
+- Update: run the same `bun install -g github:MaximilianHeidenreich/seek-search` again. The skill symlink points
   into the global install, so it updates too.
 - Uninstall: `bun remove -g seek-search && rm ~/.claude/skills/seek-search`.
 - From a local checkout instead: `bun install && bun link`, then `seek install`.
