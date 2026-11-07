@@ -1,0 +1,16 @@
+{
+  "name": "seek-search",
+  "version": "0.2.0",
+  "type": "module",
+  "bin": {
+    "seek": "./cli.ts"
+  },
+  "scripts": {
+    "seek": "bun cli.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/gateway": "^4.0.132",
+    "@ai-sdk/provider-utils": "5.0.72",
+    "ai": "^7.0.159"
+  }
+}
